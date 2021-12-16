@@ -1,7 +1,5 @@
 <!doctype html>
 <html class="no-js" lang="en">
-
-<!-- Mirrored from themebeyond.com/html/kufa/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Feb 2020 06:27:43 GMT -->
 <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -61,7 +59,7 @@
                                             <li class="nav-item"><a class="nav-link" href="#service">service</a></li>
                                             <li class="nav-item"><a class="nav-link" href="#portfolio">portfolio</a></li>
                                             <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                                            <li class="nav-item"><a class="nav-link" href="#">Login</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="users/user-add.php">Login</a></li>
                                         </ul>
                                     </div>
                                     <div class="header-btn">

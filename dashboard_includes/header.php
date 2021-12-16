@@ -9,19 +9,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <!--== FAV ICON ==-->
-    <link rel="shortcut icon" href="images/fav.ico">
+    <link rel="shortcut icon" href="../dashboard_assets/images/fav.ico">
 
     <!-- GOOGLE FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Quicksand:300,400,500" rel="stylesheet">
 
     <!-- FONT-AWESOME ICON CSS -->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="../dashboard_assets/css/font-awesome.min.css">
 
     <!--== ALL CSS FILES ==-->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/mob.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/materialize.css" />
+    <link rel="stylesheet" href="../dashboard_assets/css/style.css">
+    <link rel="stylesheet" href="../dashboard_assets/css/mob.css">
+    <link rel="stylesheet" href="../dashboard_assets/css/bootstrap.css">
+    <link rel="stylesheet" href="../dashboard_assets/css/materialize.css" />
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -39,7 +39,7 @@
             <div class="col-md-2 col-sm-3 col-xs-6 sb1-1">
                 <a href="#" class="btn-close-menu"><i class="fa fa-times" aria-hidden="true"></i></a>
                 <a href="#" class="atab-menu"><i class="fa fa-bars tab-menu" aria-hidden="true"></i></a>
-                <a href="index.html" class="logo"><img src="images/logo1.png" alt="" />
+                <a href="index.html" class="logo"><img src="../dashboard_assets/images/logo1.png" alt="" />
                 </a>
             </div>
             <!--== SEARCH ==-->
@@ -60,7 +60,7 @@
             <!--== MY ACCCOUNT ==-->
             <div class="col-md-2 col-sm-3 col-xs-6">
                 <!-- Dropdown Trigger -->
-                <a class='waves-effect dropdown-button top-user-pro' href='#' data-activates='top-menu'><img src="images/user/6.png" alt="" />My Account <i class="fa fa-angle-down" aria-hidden="true"></i>
+                <a class='waves-effect dropdown-button top-user-pro' href='#' data-activates='top-menu'><img src="../dashboard_assets/images/user/6.png" alt="" />My Account <i class="fa fa-angle-down" aria-hidden="true"></i>
                 </a>
 
                 <!-- Dropdown Structure -->
@@ -96,7 +96,7 @@
                 <!--== USER INFO ==-->
                 <div class="sb2-12">
                     <ul>
-                        <li><img src="images/placeholder.jpg" alt="">
+                        <li><img src="../dashboard_assets/images/placeholder.jpg" alt="">
                         </li>
                         <li>
                             <h5>Victoria Baker <span> Santa Ana, CA</span></h5>
@@ -255,62 +255,3 @@
 
             <!--== BODY INNER CONTAINER ==-->
             <div class="sb2-2">
-                <div class="blog-login">
-                    <div class="blog-login-in">
-                        <form>
-                            <img src="images/logo.png" alt="" />
-                            <div class="row">
-                                <div class="input-field col s12">
-                                    <input id="first_name1" type="text" class="validate">
-                                    <label for="first_name1">User Name</label>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="input-field col s12">
-                                    <input id="last_name" type="password" class="validate">
-                                    <label for="last_name">Password</label>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="input-field col s12">
-                                    <a class="waves-effect waves-light btn-large btn-log-in" href="index.html">Login</a>
-                                </div>
-                            </div>
-                            <a href="forgot.html" class="for-pass">Forgot Password?</a>
-                        </form>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-    <!--== BOTTOM FLOAT ICON ==-->
-    <section>
-        <div class="fixed-action-btn vertical">
-            <a class="btn-floating btn-large red pulse">
-                <i class="large material-icons">mode_edit</i>
-            </a>
-            <ul>
-                <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a>
-                </li>
-                <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a>
-                </li>
-                <li><a class="btn-floating green"><i class="material-icons">publish</i></a>
-                </li>
-                <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a>
-                </li>
-            </ul>
-        </div>
-    </section>
-
-    <!--======== SCRIPT FILES =========-->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/materialize.min.js"></script>
-    <script src="js/custom.js"></script>
-</body>
-
-
-<!-- Mirrored from rn53themes.net/themes/demo/lava-admin/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 15 Dec 2021 17:21:59 GMT -->
-</html>

@@ -1,16 +1,17 @@
 <!doctype html>
 <html class="no-js" lang="en">
-<head>
+
+    <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Kufa - Personal Portfolio HTML5 Template</title>
+        <title>Kufa - Personal Portfolio php5 Template</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
         <!-- Place favicon.ico in the root directory -->
 
-		<!-- CSS here -->
+        <!-- CSS here -->
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/animate.min.css">
         <link rel="stylesheet" href="css/magnific-popup.css">
@@ -22,6 +23,7 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/responsive.css">
     </head>
+
     <body class="theme-bg">
 
         <!-- preloader -->
@@ -44,10 +46,9 @@
                         <div class="col-xl-12">
                             <div class="main-menu">
                                 <nav class="navbar navbar-expand-lg">
-                                    <a href="index.html" class="navbar-brand logo-sticky-none"><img src="img/logo/logo.png" alt="Logo"></a>
-                                    <a href="index.html" class="navbar-brand s-logo-none"><img src="img/logo/s_logo.png" alt="Logo"></a>
-                                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                                        data-target="#navbarNav">
+                                    <a href="index.php" class="navbar-brand logo-sticky-none"><img src="img/logo/logo.png" alt="Logo"></a>
+                                    <a href="index.php" class="navbar-brand s-logo-none"><img src="img/logo/s_logo.png" alt="Logo"></a>
+                                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
                                         <span class="navbar-icon"></span>
                                         <span class="navbar-icon"></span>
                                         <span class="navbar-icon"></span>
@@ -79,7 +80,7 @@
                     </button>
                 </div>
                 <div class="logo-side mb-30">
-                    <a href="index-2.html">
+                    <a href="index-2.php">
                         <img src="img/logo/logo.png" alt="" />
                     </a>
                 </div>
@@ -200,8 +201,7 @@
                                     <span>Bachelor of Computer Engineering</span>
                                     <div class="progressWrapper">
                                         <div class="progress">
-                                            <div class="progress-bar wow slideInLefts" data-wow-delay="0.2s" data-wow-duration="2s" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0"
-                                                aria-valuemax="100"></div>
+                                            <div class="progress-bar wow slideInLefts" data-wow-delay="0.2s" data-wow-duration="2s" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -215,8 +215,7 @@
                                     <span>Diploma of Computer</span>
                                     <div class="progressWrapper">
                                         <div class="progress">
-                                            <div class="progress-bar wow slideInLefts" data-wow-delay="0.2s" data-wow-duration="2s" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0"
-                                                aria-valuemax="100"></div>
+                                            <div class="progress-bar wow slideInLefts" data-wow-delay="0.2s" data-wow-duration="2s" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -230,7 +229,7 @@
 
             <!-- Services-area -->
             <section id="service" class="services-area pt-120 pb-50">
-				<div class="container">
+                <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-xl-6 col-lg-8">
                             <div class="section-title text-center mb-70">
@@ -239,64 +238,64 @@
                             </div>
                         </div>
                     </div>
-					<div class="row">
-						<div class="col-lg-4 col-md-6">
-							<div class="icon_box_01 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="icon_box_01 wow fadeInLeft" data-wow-delay="0.2s">
                                 <i class="fab fa-react"></i>
-								<h3>Creative Design</h3>
-								<p>
-									Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum indust.
-								</p>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6">
-							<div class="icon_box_01 wow fadeInLeft" data-wow-delay="0.4s">
-								<i class="fab fa-free-code-camp"></i>
-								<h3>Unlimited Features</h3>
-								<p>
+                                <h3>Creative Design</h3>
+                                <p>
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum indust.
-								</p>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6">
-							<div class="icon_box_01 wow fadeInLeft" data-wow-delay="0.6s">
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="icon_box_01 wow fadeInLeft" data-wow-delay="0.4s">
+                                <i class="fab fa-free-code-camp"></i>
+                                <h3>Unlimited Features</h3>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum indust.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="icon_box_01 wow fadeInLeft" data-wow-delay="0.6s">
                                 <i class="fal fa-desktop"></i>
-								<h3>Ultra Responsive</h3>
-								<p>
+                                <h3>Ultra Responsive</h3>
+                                <p>
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum indust.
-								</p>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6">
-							<div class="icon_box_01 wow fadeInLeft" data-wow-delay="0.2s">
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="icon_box_01 wow fadeInLeft" data-wow-delay="0.2s">
                                 <i class="fal fa-lightbulb-on"></i>
-								<h3>Creative Ideas</h3>
-								<p>
+                                <h3>Creative Ideas</h3>
+                                <p>
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum indust.
-								</p>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6">
-							<div class="icon_box_01 wow fadeInLeft" data-wow-delay="0.4s">
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="icon_box_01 wow fadeInLeft" data-wow-delay="0.4s">
                                 <i class="fal fa-edit"></i>
-								<h3>Easy Customization</h3>
-								<p>
+                                <h3>Easy Customization</h3>
+                                <p>
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum indust.
-								</p>
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-6">
-							<div class="icon_box_01 wow fadeInLeft" data-wow-delay="0.6s">
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="icon_box_01 wow fadeInLeft" data-wow-delay="0.6s">
                                 <i class="fal fa-headset"></i>
-								<h3>Supper Support</h3>
-								<p>
+                                <h3>Supper Support</h3>
+                                <p>
                                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum indust.
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <!-- Services-area-end -->
 
             <!-- Portfolios-area -->
@@ -313,75 +312,75 @@
                     <div class="row">
                         <div class="col-lg-4 col-md-6 pitem">
                             <div class="speaker-box">
-								<div class="speaker-thumb">
-									<img src="img/images/1.jpg" alt="img">
-								</div>
-								<div class="speaker-overlay">
-									<span>Design</span>
-									<h4><a href="portfolio-single.html">Hamble Triangle</a></h4>
-									<a href="portfolio-single.html" class="arrow-btn">More information <span></span></a>
-								</div>
-							</div>
+                                <div class="speaker-thumb">
+                                    <img src="img/images/1.jpg" alt="img">
+                                </div>
+                                <div class="speaker-overlay">
+                                    <span>Design</span>
+                                    <h4><a href="portfolio-single.php">Hamble Triangle</a></h4>
+                                    <a href="portfolio-single.php" class="arrow-btn">More information <span></span></a>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-lg-4 col-md-6 pitem">
                             <div class="speaker-box">
-								<div class="speaker-thumb">
-									<img src="img/images/2.jpg" alt="img">
-								</div>
-								<div class="speaker-overlay">
-									<span>Video</span>
-									<h4><a href="portfolio-single.html">Dark Beauty</a></h4>
-									<a href="portfolio-single.html" class="arrow-btn">More information <span></span></a>
-								</div>
-							</div>
+                                <div class="speaker-thumb">
+                                    <img src="img/images/2.jpg" alt="img">
+                                </div>
+                                <div class="speaker-overlay">
+                                    <span>Video</span>
+                                    <h4><a href="portfolio-single.php">Dark Beauty</a></h4>
+                                    <a href="portfolio-single.php" class="arrow-btn">More information <span></span></a>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-lg-4 col-md-6 pitem">
                             <div class="speaker-box">
-								<div class="speaker-thumb">
-									<img src="img/images/3.jpg" alt="img">
-								</div>
-								<div class="speaker-overlay">
-									<span>Audio</span>
-									<h4><a href="portfolio-single.html">Gilroy Limbo.</a></h4>
-									<a href="portfolio-single.html" class="arrow-btn">More information <span></span></a>
-								</div>
-							</div>
-                        </div>
-						<div class="col-lg-4 col-md-6 pitem">
-                            <div class="speaker-box">
-								<div class="speaker-thumb">
-									<img src="img/images/4.jpg" alt="img">
-								</div>
-								<div class="speaker-overlay">
-									<span>Design</span>
-									<h4><a href="portfolio-single.html">Ipsum which</a></h4>
-									<a href="portfolio-single.html" class="arrow-btn">More information <span></span></a>
-								</div>
-							</div>
+                                <div class="speaker-thumb">
+                                    <img src="img/images/3.jpg" alt="img">
+                                </div>
+                                <div class="speaker-overlay">
+                                    <span>Audio</span>
+                                    <h4><a href="portfolio-single.php">Gilroy Limbo.</a></h4>
+                                    <a href="portfolio-single.php" class="arrow-btn">More information <span></span></a>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-lg-4 col-md-6 pitem">
                             <div class="speaker-box">
-								<div class="speaker-thumb">
-									<img src="img/images/5.jpg" alt="img">
-								</div>
-								<div class="speaker-overlay">
-									<span>Creative</span>
-									<h4><a href="portfolio-single.html">Eiusmod tempor</a></h4>
-									<a href="portfolio-single.html" class="arrow-btn">More information <span></span></a>
-								</div>
-							</div>
+                                <div class="speaker-thumb">
+                                    <img src="img/images/4.jpg" alt="img">
+                                </div>
+                                <div class="speaker-overlay">
+                                    <span>Design</span>
+                                    <h4><a href="portfolio-single.php">Ipsum which</a></h4>
+                                    <a href="portfolio-single.php" class="arrow-btn">More information <span></span></a>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-lg-4 col-md-6 pitem">
                             <div class="speaker-box">
-								<div class="speaker-thumb">
-									<img src="img/images/6.jpg" alt="img">
-								</div>
-								<div class="speaker-overlay">
-									<span>UX/UI</span>
-									<h4><a href="portfolio-single.html">again there</a></h4>
-									<a href="portfolio-single.html" class="arrow-btn">More information <span></span></a>
-								</div>
-							</div>
+                                <div class="speaker-thumb">
+                                    <img src="img/images/5.jpg" alt="img">
+                                </div>
+                                <div class="speaker-overlay">
+                                    <span>Creative</span>
+                                    <h4><a href="portfolio-single.php">Eiusmod tempor</a></h4>
+                                    <a href="portfolio-single.php" class="arrow-btn">More information <span></span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 pitem">
+                            <div class="speaker-box">
+                                <div class="speaker-thumb">
+                                    <img src="img/images/6.jpg" alt="img">
+                                </div>
+                                <div class="speaker-overlay">
+                                    <span>UX/UI</span>
+                                    <h4><a href="portfolio-single.php">again there</a></h4>
+                                    <a href="portfolio-single.php" class="arrow-btn">More information <span></span></a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -587,7 +586,7 @@
 
 
 
-		<!-- JS here -->
+        <!-- JS here -->
         <script src="js/vendor/jquery-1.12.4.min.js"></script>
         <script src="js/popper.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
@@ -606,5 +605,5 @@
         <script src="js/main.js"></script>
     </body>
 
-<!-- Mirrored from themebeyond.com/html/kufa/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Feb 2020 06:28:17 GMT -->
+    <!-- Mirrored from themebeyond.com/php/kufa/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 06 Feb 2020 06:28:17 GMT -->
 </html>

@@ -116,6 +116,16 @@
                                     </ul>
                                 </div>
                             </li>
+                            <li><a href="javascript:void(0)" class="collapsible-header"><i class="fa fa-id-card" aria-hidden="true"></i> Banners</a>
+                                <div class="collapsible-body left-sub-menu">
+                                    <ul>
+                                        <li><a href="../banners/all_banner.php">All Banners</a>
+                                        </li>
+                                        <li><a href="../banners/add_banner.php">Add New Banners</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
                             <li><a href="javascript:void(0)" class="collapsible-header"><i class="fa fa-rss" aria-hidden="true"></i> Blog & Articals</a>
                                 <div class="collapsible-body left-sub-menu">
                                     <ul>

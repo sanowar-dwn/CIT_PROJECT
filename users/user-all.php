@@ -63,51 +63,51 @@ $select_user_result_2 = mysqli_query($db_connect, $select_user_2);
                                         </table>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Trashed users -->
-                    <div class="row py-5">
-                        <div class="col-md-12">
-                            <div class="box-inn-sp">
-                                <div class="inn-title">
-                                    <h4>Trashed Users</h4>
-                                </div>
-                                <div class="tab-inn">
-                                    <div class="table-responsive table-desi">
-                                        <table class="table table-hover">
-                                            <thead>
-                                                <tr>
-                                                    <th>User</th>
-                                                    <th>Name</th>
-                                                    <th>Email</th>
-                                                    <th>Restore</th>
-                                                    <th>Delete</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <?php foreach($select_user_result_2 as $key => $user){ ?>
-                                                <tr>
-                                                    <td><span class="list-img"><img src="images/user/1.png" alt=""></span>
-                                                    </td>
-                                                    <td><a href="#"><span class="list-enq-name"><?= $user['name']; ?></span></a>
-                                                    </td>
-                                                    <td><?= $user['email']; ?></td>
-                                                    <td>
-                                                        <a href="restore.php?id=<?= $user['id']; ?>"><i class="fa fa-undo" aria-hidden="true"></i></a>
-                                                    </td>
-                                                    <td>
-                                                        <a href="delete.php?id=<?= $user['id']; ?>"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
-                                                    </td>
-                                                </tr>
-                                                <?php } ?>
-                                            </tbody>
-                                        </table>
+                                <div class="row py-5">
+                                    <div class="col-md-12">
+                                        <div class="box-inn-sp">
+                                            <div class="inn-title">
+                                                <h4>Trashed Users</h4>
+                                            </div>
+                                            <div class="tab-inn">
+                                                <div class="table-responsive table-desi">
+                                                    <table class="table table-hover">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>User</th>
+                                                                <th>Name</th>
+                                                                <th>Email</th>
+                                                                <th>Restore</th>
+                                                                <th>Delete</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <?php foreach($select_user_result_2 as $key => $user){ ?>
+                                                            <tr>
+                                                                <td><span class="list-img"><img src="images/user/1.png" alt=""></span>
+                                                                </td>
+                                                                <td><a href="#"><span class="list-enq-name"><?= $user['name']; ?></span></a>
+                                                                </td>
+                                                                <td><?= $user['email']; ?></td>
+                                                                <td>
+                                                                    <a href="restore.php?id=<?= $user['id']; ?>"><i class="fa fa-undo" aria-hidden="true"></i></a>
+                                                                </td>
+                                                                <td>
+                                                                    <a href="delete.php?id=<?= $user['id']; ?>"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+                                                                </td>
+                                                            </tr>
+                                                            <?php } ?>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <!-- Trashed users -->
                 </div>
             </div>
         </div>

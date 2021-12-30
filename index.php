@@ -1,7 +1,7 @@
 <?php
 require 'db.php';
 
-$select_banner = "SELECT * FROM banners";
+$select_banner = "SELECT * FROM banners WHERE status = 1";
 $select_banner_result = mysqli_query($db_connect, $select_banner);
 $after_assoc_banner = mysqli_fetch_assoc($select_banner_result);
 ?>

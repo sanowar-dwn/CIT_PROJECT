@@ -47,6 +47,12 @@ $after_assoc = mysqli_fetch_assoc($select_banner_result);
                                                 <label for="password">Pinterest Link</label>
                                             </div>
                                         </div>
+                                        <div class="row">
+                                            <div class="input-field col s6">
+                                                <input readonly id="password" type="text" value="<?= $after_assoc['button'] ?>">
+                                                <label for="password">Button</label>
+                                            </div>
+                                        </div>
                                     </form>
                                 </div>
                             </div>

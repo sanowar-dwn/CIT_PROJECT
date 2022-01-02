@@ -136,6 +136,16 @@
                                 </ul>
                             </div>
                         </li>
+                        <li><a href="javascript:void(0)" class="collapsible-header"><i class="fa fa-certificate" aria-hidden="true"></i>Education</a>
+                            <div class="collapsible-body left-sub-menu">
+                                <ul>
+                                    <li><a href="../education/all_education.php">All education</a>
+                                    </li>
+                                    <li><a href="../education/add_education.php">Add education</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
                         <li><a href="javascript:void(0)" class="collapsible-header"><i class="fa fa-rss" aria-hidden="true"></i> Blog & Articals</a>
                             <div class="collapsible-body left-sub-menu">
                                 <ul>

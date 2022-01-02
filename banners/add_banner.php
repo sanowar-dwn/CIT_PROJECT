@@ -65,4 +65,3 @@ require '../dashboard_includes/header.php'; ?>
             </div>
         </div>
         <?php require '../dashboard_includes/footer.php'; ?>
-        <?php require '../dashboard_includes/footer.php'; ?>

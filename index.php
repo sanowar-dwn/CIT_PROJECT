@@ -184,7 +184,7 @@ $after_assoc_about = mysqli_fetch_assoc($select_about_result);
                                 <span>PHD of Interaction Design &amp; Animation</span>
                                 <div class="progressWrapper">
                                     <div class="progress">
-                                        <div class="progress-bar wow slideInLefts" data-wow-delay="0.2s" data-wow-duration="2s" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                                        <div class="progress-bar wow slideInLefts" data-wow-delay="0.2s" data-wow-duration="2s" role="progressbar" style="width: 15%;" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                 </div>
                             </div>
@@ -198,7 +198,7 @@ $after_assoc_about = mysqli_fetch_assoc($select_about_result);
                                 <span>Master of Database Administration</span>
                                 <div class="progressWrapper">
                                     <div class="progress">
-                                        <div class="progress-bar wow slideInLefts" data-wow-delay="0.2s" data-wow-duration="2s" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                                        <div class="progress-bar wow slideInLefts" data-wow-delay="0.2s" data-wow-duration="2s" role="progressbar" style="width: 10%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                 </div>
                             </div>

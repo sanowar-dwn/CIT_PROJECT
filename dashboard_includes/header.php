@@ -109,9 +109,19 @@
                         <li><a href="javascript:void(0)" class="collapsible-header"><i class="fa fa-user" aria-hidden="true"></i> Users</a>
                             <div class="collapsible-body left-sub-menu">
                                 <ul>
-                                    <li><a href="user-all.php">All Users</a>
+                                    <li><a href="../users/user-all.php">All Users</a>
                                     </li>
-                                    <li><a href="user-add.php">Add New user</a>
+                                    <li><a href="../users/user-add.php">Add New User</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="javascript:void(0)" class="collapsible-header"><i class="fa fa-icons"></i> Icons</a>
+                            <div class="collapsible-body left-sub-menu">
+                                <ul>
+                                    <li><a href="../icons/user-all.php">All Icons</a>
+                                    </li>
+                                    <li><a href="../icons/add_icon.php">Add New Icon</a>
                                     </li>
                                 </ul>
                             </div>
